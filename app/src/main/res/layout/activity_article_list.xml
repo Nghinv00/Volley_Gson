@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_article_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nghinv.gson.ArticleList.JsonList">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:id="@+id/btnGetDataBai3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="abc"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/btnGetDataBai3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:text="abc"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txt1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt3"
+        android:text="abc"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txt2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt4"
+        android:text="abc"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txt3"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nghinv.gson.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get data"
+        android:id="@+id/btnGetData"/>
+    <TextView
+        android:text="abc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"/>
+    <TextView
+        android:id="@+id/txtQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lấy dữ liệu trả về dạng Json " />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtList"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:text="Convert dữ liệu từ JSon sang Gson" />
+    </ScrollView>
+
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get data 2"
+        android:id="@+id/btnGetData1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/data1"
+        android:hint="data1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="data2"
+        android:id="@+id/data2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBai3"
+        android:text="Bài 3"
+        android:layout_marginTop="90dp"/>
+
+</LinearLayout>
